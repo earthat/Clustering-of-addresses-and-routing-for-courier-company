@@ -48,9 +48,9 @@ Total distance: 0 miles
 
 Route:
 
-64 Pound road West Dandenong South, Australia -> 86-88 MAIN ROADRIDDELLS CREEK,3431Australia -> 15 SOUTHBOURNE ROADRIDDELLS CREEK,3431Australia -> 64 Pound road West Dandenong South, Australia
+64 Pound road West Dandenong South, Australia -> 86-88 MAIN ROADRIDDELLS CREEK,3431Australia -> 15 SOUTHBOURNE ROADRIDDELLS CREEK,3431Australia -> 64 Pound road West Dandenong South, Australia```
 
-************************ Kmeans Starts Here*******************************************
+```************************ Kmeans Starts Here*******************************************
 Kmeanslabels=  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
  0 0 0 0 0 0 0 0 0 0 4 1 2 4 4 4 2 4 4 2 2 2 4 4 4 4 4 2 4 4 4 2 0 0 0 0 0
  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 3 3 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 2 2
