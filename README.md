@@ -126,7 +126,10 @@ The distance traveeled in each route speaks iteself that DBSCAN is better to use
 1. install google ORTOOL for path optimisation using 'py3_ortools-6.3.4431-cp35-cp35m-win_amd64.whl' from the link
 
 https://pypi.python.org/pypi?:action=files&name=py3-ortools&version=6.3.4431
+
 2. install all other dependcies
+
 3. regitser with google map for API key and put that into mapAPI.py. See https://console.developers.google.com
+
 4. run main.py either from terminal or using any editor
 
