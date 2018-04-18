@@ -5,7 +5,7 @@
 MAX_SIZE = 640                                       # Max size of the map in pixels
 SCALE = 2                                            # 1 or 2 (free plan), see Google Static Maps API docs
 MAPTYPE = 'roadmap'                                  # Default map type
-API_KEY = 'AIzaSyC6hRZaoYzXA7n13dSQJF61l50oxgOGd6c'                 # Put your API key here, see https://console.developers.google.com
+API_KEY = 'XXXXXXXXX'                                # Put your API key here, see https://console.developers.google.com
 BASE_URL = 'https://maps.googleapis.com/maps/api/staticmap?'
 
 cache = {}                                           # Caching queries to limit API calls / speed them up
