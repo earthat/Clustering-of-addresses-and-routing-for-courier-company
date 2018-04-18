@@ -1,5 +1,6 @@
 # Clustering of addresses and routing for courier company
-The delivery cost of a courier company can be reduced by geographical clustering of addresses in desired number of clusters dpeending upon the courier boys availablity. This code is using two different clustering algorithm for comparison purpose: kmeans, DBSCAN. DBSCAN is suitable clustering approach for the geographical clustering. The actual geographical distance is calculated by using gogle map API since we have addresses of dleivery locatiosn, we fetched the co-ordinates from google map and calculated the distance. Based on this distance optimal routing for courier boy is planned in every cluster. For the provided data the following were formed geographical clusters by kmeans and DBSCAN
+The delivery cost of a courier company can be reduced by geographical clustering of addresses in desired number of clusters dpeending upon the courier boys availablity. This code is using two different clustering algorithm for comparison purpose: kmeans, DBSCAN. DBSCAN is suitable clustering approach for the geographical clustering. The actual geographical distance is calculated by using gogle map API since we have addresses of dleivery locatiosn, we fetched the co-ordinates from google map and calculated the distance. Based on this distance optimal routing for courier boy is planned in every cluster. For the provided data the following were formed geographical clusters by kmeans and DBSCAN. The clusters are formed as
+https://github.com/earthat/Clustering-of-addresses-and-routing-for-courier-company/blob/master/Results/Figure_1.png
 
 ```************************ DBSCAN Starts Here*******************************************8
 DBscanlabels=  [-1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
@@ -48,9 +49,12 @@ Total distance: 0 miles
 
 Route:
 
-64 Pound road West Dandenong South, Australia -> 86-88 MAIN ROADRIDDELLS CREEK,3431Australia -> 15 SOUTHBOURNE ROADRIDDELLS CREEK,3431Australia -> 64 Pound road West Dandenong South, Australia```
+64 Pound road West Dandenong South, Australia -> 86-88 MAIN ROADRIDDELLS CREEK,3431Australia -> 15 SOUTHBOURNE ROADRIDDELLS CREEK,3431Australia -> 64 Pound road West Dandenong South, Australia 
+```
 
-```************************ Kmeans Starts Here*******************************************
+K-means
+
+``` ************************ Kmeans Starts Here*******************************************
 Kmeanslabels=  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
  0 0 0 0 0 0 0 0 0 0 4 1 2 4 4 4 2 4 4 2 2 2 4 4 4 4 4 2 4 4 4 2 0 0 0 0 0
  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 3 3 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 2 2
@@ -117,6 +121,7 @@ Route:
 
 64 Pound road West Dandenong South, Australia -> 22 Groveton StreetCRAIGIEBURN,3064Australia -> 1 Yandoit CourtMEADOW HTS,3048Australia -> 8 GRANDVIEW CLOSERIDDELLS CREEK,3431Australia -> 27 Golfview DveCRAIGIEBURN,3064Australia -> 19 Tollkeepers ParadeATTWOOD,3049Australia -> 4 Lanter n Cour tWALLAN,3756Australia -> 12 WATERBURY TURNCRAIGIEBURN,3064Australia -> 9 PICCADILLY COURTGREENVALE,3059Australia -> 18 Sanctuary CctBEVERIDGE,3753Australia -> 43 AFFLECK STWANDONG,3758Australia -> 40 Dillon CourtDIGGERS REST,3427Australia -> 10 queensferr y placeGREENVALE,3059Australia -> 20 Cowes StreetCRAIGIEBURN,3064Australia -> 12 TREEVIOLET LANEALLAN,3756Australia -> 93 FRONTIER AVENUEGREENVALE,3059Australia -> 153 Markham RdIDDELLS CREEK,3431Australia -> 86-88 MAIN ROADRIDDELLS CREEK,3431Australia -> 15 SOUTHBOURNE ROADRIDDELLS CREEK,3431Australia -> 5 MCCARTHY CRTWALLAN,3756Australia -> 2 Tina CourtCLARINDA,3169Australia -> 58 Raglan StWALLAN,3756Australia -> 4 WARREN AVEWALLAN,3756Australia -> 78 Hutchinsons LaneROMSEY,3434Australia -> 64 Pound road West Dandenong South, Australia
 ```
+The distance traveeled in each route speaks iteself that DBSCAN is better to use for geographical clsutering and optimal routing for courier company delivery.
 # How to use
 
 
